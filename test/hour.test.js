@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const Hour = require('../lib/Hour.js');
+const Hour = require('../lib/hour.js');
 
 describe('hour parser', function() {
   
