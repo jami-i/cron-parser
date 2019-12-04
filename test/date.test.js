@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const Date = require('../lib/Date.js');
+const Date = require('../lib/date.js');
 
 describe('date parser', function() {
   
