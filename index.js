@@ -1,9 +1,4 @@
-const minuteValidatorFactory = require('./lib/minute');
+const Cron = require('./lib/');
 
-
-const validator = minuteValidatorFactory('1-3,5-6');
-
-console.log(validator('3'));
-console.log(validator('4'));
-console.log(validator('5'));
-
+const validator = Cron(process.argv.slice(2).join(' '));
+console.log(validator(new Date()));
